@@ -31,7 +31,7 @@ teu_all['TEU_FACTOR']= teu_all['물동량']/teu_all['개수']
 
 kpi_teu_sinhang = teu_all.loc[('신항',True),'TEU_FACTOR']
 kpi_teu_bukhang = teu_all.loc[('북항',True),'TEU_FACTOR']
-kpi_teu_gap = (kpi_teu_sinhang-kpi_teu_bukhang-1)*100
+kpi_teu_gap = (kpi_teu_sinhang / kpi_teu_bukhang - 1) * 100
 ###
 
 ###공컨비율
