@@ -105,7 +105,7 @@ with st.sidebar:
 ###
 
 ###데이터 프레임
-(df['월']>=month_range[0])&(df['월']<=month_range[1])
+# (df['월']>=month_range[0])&(df['월']<=month_range[1])
 filtered = df[(df['월']>=month_range[0])&(df['월']<=month_range[1])]
 
 st.subheader('원본 데이터')
