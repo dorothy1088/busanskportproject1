@@ -61,8 +61,8 @@ kpi_corr_bukhang =monthly_buk_full['물동량'].corr(monthly_buk_full['TEU_FACTO
 
 
 ###kpi 카드
-st.subheader('핵심지표')
-st.caption('필터와는 무관합니다.')
+# st.subheader('핵심지표')
+# st.caption('필터와는 무관합니다.')
 
 col1, col2, col3, col4 = st.columns(4)
 with col1:
